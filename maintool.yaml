@@ -1,0 +1,31 @@
+appId: it.frigoveneta.maintool
+---
+- launchApp:
+    clearState: true
+
+
+- assertVisible: "Username"
+- tapOn: "Username"
+- inputText: "${USERNAME}"
+
+- assertVisible: "Password"
+- tapOn: "Password"
+- inputText: "${PASSWORD}"
+
+- assertVisible: "Esegui l'accesso"
+- tapOn: "Esegui l'accesso"
+
+- assertVisible: "No, accedo con username"
+- tapOn: "No, accedo con username"
+
+- assertVisible: "Attività"
+- tapOn: "Attività" 
+
+- assertVisible: "Pianificazione"
+- tapOn: "Pianificazione" 
+
+- assertVisible: "Non assegnati"
+- tapOn: "Non assegnati" 
+
+- assertVisible: "Esci"
+- tapOn: "Esci"
