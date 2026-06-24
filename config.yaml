@@ -1,0 +1,9 @@
+appId: com.example.app
+---
+# config.yaml
+onStepComplete:
+  - runFlow:
+      when:
+        visible: "Errore sconosciuto, riprova piu tardi"
+      commands:
+        - takeScreenshot: "errore_beccato"
