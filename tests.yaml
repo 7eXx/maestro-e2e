@@ -1,0 +1,13 @@
+appId: it.frigoveneta.webgest
+---
+- launchApp:
+    clearState: true
+- tapOn: "Salta"
+- tapOn:
+    point: 47%,88%
+- tapOn: "Username"
+- inputText: "test.tessari"
+- tapOn: "Password"
+- inputText: "&i%aM68ZEDE%"
+
+
