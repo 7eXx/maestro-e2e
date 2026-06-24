@@ -1,0 +1,31 @@
+appId: it.frigoveneta.webgest
+---
+- launchApp:
+    clearState: true
+- tapOn: "Salta"
+- tapOn:
+    point: 47%,88%
+- tapOn: "Username"
+- inputText: "${USERNAME}"
+- tapOn: "Password"
+- inputText: "${PASSWORD}"
+
+- tapOn: "Login"
+
+- assertVisible: "WebGest REMOTE"
+
+- tapOn: "WebGest REMOTE, Guarda il tuo impianto"
+
+- tapOn:
+    point: 16%,11%
+- inputText: "sede frigoveneta"
+- tapOn:
+    text: "sede frigoveneta"
+    index: 1
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+appId: com.google.android.contacts
+---
+- launchApp:
+    clearState: true
+- tapOn: "Consenti"
+- tapOn: "Consenti"
+- tapOn: "Consenti"
+- tapOn: Crea Contatto
+- tapOn: "Dispositivo e Google"
+- tapOn: Nome
+- inputText: John
+- tapOn: "Cognome"
+- inputText: Doe
+- tapOn: "Società"
+- inputText: Maestro
+- tapOn: "+39"
+- inputText: 111-111-1111
+- tapOn: "Salva"
+- back                            # Returns to the main contact list
